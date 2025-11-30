@@ -53,6 +53,9 @@ int main ()
 
             cin>>modo_ahorro;
 
+            //OpenAI. (30 Noviembre 2022). ChatGPT. Recuperado de https://chatgpt.com/
+            //La parte a continuacion fue con la ayuda de Chatgpt
+
             if (cin.fail() || modo_ahorro < 1 || modo_ahorro > 4) {
                 cin.clear();
                 cin.ignore(2000, '\n');
@@ -62,7 +65,9 @@ int main ()
                 break;
             }
         }
-
+        
+        //Culmina la parte en donde chatgpt colaboro
+        
         //Edgar
         
         while (true) {
