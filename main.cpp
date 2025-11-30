@@ -24,7 +24,7 @@ int main ()
     // Precios segun PR
     
     int precio_min[4] = {80, 500, 1000, 200000};
-    int precio_max[4] = {200, 1500, 500000, 1000000};
+    int precio_max[4] = {300, 1500, 500000, 1000000};
 
     string modosAhorro[4] = {"Semanal", "Bisemanal", "Mensual", "6 meses"};
     string objetos[4] = {
@@ -123,6 +123,7 @@ int main ()
         // Javier y Sergio
         
         switch(modo_ahorro){
+            
             case 1: dias_por_periodo = 7; break;
             case 2: dias_por_periodo = 14; break;
             case 3: dias_por_periodo = 30; break;
@@ -130,6 +131,7 @@ int main ()
         }
 
         double dias_necesarios = (double)precio_articulo / inversion * dias_por_periodo;
+        
         int anos = floor(dias_necesarios / dias_ano);
         int meses = floor((dias_necesarios - anos * dias_ano) / dias_mes);
 
