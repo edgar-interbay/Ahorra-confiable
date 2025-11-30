@@ -16,7 +16,7 @@ Luego calcula, de forma aproximada, cuántos años y meses tardarías en reunir 
 
 
 
-HOW TO USE:
+How to use:
 
 -Abre el programa desde tu computadora.
 
