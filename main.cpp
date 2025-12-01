@@ -18,7 +18,7 @@ int main ()
     const int dias_mes = 30;
 
     int modo_ahorro, objeto, inversion, precio_articulo;
-    double dias_por_periodo;
+    double dias_por_periodo, dias_necesarios;
     string continuar = "si";
 
     // Precios segun PR
@@ -135,7 +135,7 @@ int main ()
             case 4: dias_por_periodo = 180; break;
         }
 
-        double dias_necesarios = (double)precio_articulo / inversion * dias_por_periodo;
+        dias_necesarios = precio_articulo / inversion * dias_por_periodo;
         
         int anos = floor(dias_necesarios / dias_ano);
         int meses = floor((dias_necesarios - anos * dias_ano) / dias_mes);
