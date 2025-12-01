@@ -34,7 +34,7 @@ int main ()
         "Una casa"
     };
 
-    // Esta parte la realizo Sergio
+    // Esta parte la realizo Edgar
     
     
     while (continuar == "si") {
@@ -68,7 +68,7 @@ int main ()
         
         //Culmina la parte en donde chatgpt colaboro
         
-        //Edgar
+        //Sergio
         
         while (true) {
             cout<<"\nCuanto puedes ahorrar por periodo?\n";
