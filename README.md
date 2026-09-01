@@ -4,7 +4,7 @@ Ahorra Confiable es un programa que creamos con la idea de ayudar a las personas
 
 ¿Qué hace este programa?:
 
-Te permite elegir cómo quieres ahorrar: semanal, bisemanal, mensual, etc.
+Te permite elegir cómo quieres ahorrar: semanal, bisemanal, mensual, etc. A change
 
 Te pregunta cuánto puedes guardar por cada periodo.
 
